@@ -1,11 +1,12 @@
-<div align="center">
+# PQC Studio: Post-Quantum Cryptography & Hybrid KEM Workbench
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Senior Cryptography Engineering workbench for Post-Quantum Cryptography (PQC), NIST FIPS 203 ML-KEM, FIPS 204 ML-DSA, and hybrid X25519 key encapsulation mechanisms.
 
-  <h1>Built with AI Studio</h2>
+For the comprehensive engineering specification and Python integration module, see:
+👉 **[PQC_HYBRID_KEM_INTEGRATION.md](./PQC_HYBRID_KEM_INTEGRATION.md)**
 
-  <p>The fastest path from prompt to production with Gemini.</p>
-
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+## Features
+- **PQC Implementation Agent:** Deterministic generation (temperature 0.0) with NIST FIPS 203/204 guardrails.
+- **Hybrid KEM Handshake Simulator:** Live Alice & Bob simulation combining X25519 with ML-KEM-768 via HKDF-SHA256.
+- **NIST Standards Matrix:** Detailed parameter analysis for FIPS 203, FIPS 204, FIPS 205, and CNSA 2.0 timelines.
+- **Cryptographic Assurance Audit:** 8-point automated compliance checker for side-channels, zeroization, and dual-PRF security.

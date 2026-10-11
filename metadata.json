@@ -1,0 +1,6 @@
+{
+  "name": "PQC Studio: Post-Quantum Cryptography & Hybrid KEM Workbench",
+  "description": "Senior Cryptography Engineering workbench for Post-Quantum Cryptography (PQC), NIST FIPS 203 ML-KEM, FIPS 204 ML-DSA, and hybrid X25519 key encapsulation mechanisms.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
